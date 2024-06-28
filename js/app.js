@@ -60,7 +60,7 @@ const render = () => {
     resultDisplayEl.textContent = `You chose ${playerChoice} and the computer chose ${computerChoice}. ${msg}`;
 }
 
-const play = () => {
+const play = (event) => {
     getPlayerChoice(event);
     getComputerChoice();
     compare();
